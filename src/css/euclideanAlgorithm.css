@@ -1,0 +1,30 @@
+.euclidAlgorithm{
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    
+	margin-bottom: 10px;
+	border: none;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+table.euclidAlgorithm{
+	border-collapse: collapse;
+}
+.euclidAlgorithm tr:not(:last-child) td{
+    border-bottom: 1px solid #000;
+}
+.euclidAlgorithm td:not(:last-child){
+    border-right: 1px solid #000;
+}
+.euclidAlgorithm td:first-child{
+    border: none !important;
+}
+.euclidAlgorithm td:last-child {
+    padding: 0.7em;
+}
+.euclidAlgorithm td {
+    padding: 5px;
+}

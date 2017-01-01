@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+		<link rel="stylesheet" type="text/css" href="../src/css/euclideanAlgorithm.css">
+	</head>
+	<body>
+		<div id="ea">
+		</div>
+
+		<script type="text/javascript" src="../node_modules/jquery/dist/jquery.min.js"></script>
+		<script type="text/javascript" src="../src/js/euclideanAlgorithm.js"></script>
+		<script type="text/javascript">        	
+			$(document).ready(function() {
+				$("#ea").euclideanAlgorithm({
+					a: 75, b:36,
+					remainderSymbol: "remainder",
+					quotientSymbol: "quotient"
+				});
+			});
+		</script>
+	</body>
+</html>

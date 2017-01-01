@@ -1,0 +1,14 @@
+{
+  "name": "euclidean-algorithm",
+  "version": "0.0.1",
+  "description": "Jquery plugin that calcutate euclidean algorithm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Santana",
+  "license": "MIT",
+  "devDependencies": {
+    "jquery": "^3.1.1"
+  }
+}
