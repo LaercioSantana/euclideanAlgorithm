@@ -45,12 +45,9 @@
 			for(var i = 0; i < rows.length; i++){
 				var $tr = $('<tr>');
 				for(var j = 0; j < rows[i].length; j++){
-					console.log(rows[i][j]);
 					$tr.append('<td>' + rows[i][j] + '</td>');
 				}
-				console.log($tr);
 				$table.append($tr);
-				console.log($table);
 			}
 			this.element.append($table);
 		},
