@@ -13,6 +13,8 @@
 		this.rs;
 		this.ds;
 
+		this.showGcd = op.showGcd || false;
+
 		this.__buildUI();
 	}
 	$.extend(EuclideanAlgorithm, {
@@ -50,6 +52,16 @@
 				$table.append($tr);
 			}
 			this.element.append($table);
+
+			//show gcd
+			if(this.showGcd){
+				var remainderTds = $table.find('tr:last-of-type td');
+				remainderTds.each(function(i, e){
+					var text = $(this).text();
+					if(isFinite(parseFloat(text)) && text == 0)//find remainder equals to 0
+						remainderTds.eq(i-1).addClass('gcd');
+				});
+			}
 		},
 		__calcParams: function(a, b){
 		    this.qs = [];

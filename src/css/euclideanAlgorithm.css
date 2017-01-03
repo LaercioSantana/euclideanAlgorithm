@@ -28,3 +28,6 @@ table.euclidAlgorithm{
 .euclidAlgorithm td {
     padding: 5px;
 }
+.euclidAlgorithm td.gcd {
+    font-weight: bold;
+}
