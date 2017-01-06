@@ -3,6 +3,9 @@ Euclidean Algorithm
 
 Jquery plugin that calcutate euclidean algorithm
 
+![Euclidean Algorithm](https://raw.githubusercontent.com/LaercioSantana/euclideanAlgorithm/master/example/imgs/example.png)
+
+
 Usage
 -----
 
